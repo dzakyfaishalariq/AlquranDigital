@@ -8,6 +8,9 @@
     <title>Allquran - {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
     <style>
         .btn-success {
             border-color: azure !important;
@@ -37,6 +40,34 @@
 
         .f_c {
             margin-bottom: 40px;
+        }
+
+        .scroll_y {
+            overflow-y: scroll;
+            height: 500px;
+        }
+
+        .scroll_y2 {
+            overflow-y: scroll;
+            height: 700px;
+        }
+
+        .pemutar_audio {
+            width: 100%;
+            background-color: aqua;
+            /* shedow */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* ambil fonts di folder public/fonts/MADDINA.ttf  sebagai font tulisan*/
+        .font_alquran {
+            font-family: 'MADDINA';
+            font-size: 40px;
+        }
+
+        .font_arti {
+            font-family: 'Roboto Slab', serif;
+            font-size: 20px;
         }
     </style>
 </head>

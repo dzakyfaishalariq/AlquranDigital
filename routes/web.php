@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('guest')->group(function () {
     Route::controller(WebController::class)->group(function () {
         Route::get('/', 'index')->name('home');
-        
+        Route::get('/isi_surah/{nomor}', 'isi_surah')->name('isi_s');
     });
 });
